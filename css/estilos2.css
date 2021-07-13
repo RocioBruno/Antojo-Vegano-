@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+
+
+
+body {
+	
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-weight:400;
+
+	} 
+.productos{
+
+	font-size:35px;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	
+	}
+
+#novedades .listado{
+	padding: 20px;
+}
+
+#novedades .btn-primary{
+	border-radius: 4px;
+	color:black;
+	background: linear-gradient(to right, #FFEFBA, #FFFFFF);
+	border:none;
+}

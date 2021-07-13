@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2? family = Raleway: ital, wght @ 0,200; 0,500; 1,200 & display = swap');
+
+
+
+*{margin: 0;
+padding: 0;
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+font-weight: 500;
+
+}
+.typeR{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+.typeRmedio{
+	font-weight: 500;
+}
+
+.miColor {
+color:black;
+
+}
+
+
+.bgColor{
+	background-color:#ECDDB6;
+}
+
+
+#header{
+	min-height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:  center;
+}
+
+#header .botonera a{
+	color:#fff;
+}
+
+
+#header li{
+	display: inline-block;
+	padding: 0 10px ;
+}
+
+#header li a {
+	color: #fff;
+	font-size:20px;
+	text-decoration: none; 
+
+
+}
+
+.bgColorBlanco{
+	background-color: #fff;
+}
+
+.button{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	font-size:19px;
+	padding:0.5em 0.5em ;
+	}	
+	
+.button.margen{
+	margin-right: 20px
+}
+
+.antojo{
+	margin-left: 20px;
+}
+
+.content{
+	max-width: 1080px;
+	margin:auto;
+	
+}
+
+.banner{
+	background-image: url(../media/panaderia.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display:flex; 
+	min-height: 250px;
+	flex-direction:column;
+	text-align:center;
+	padding:20px;
+	}
+
+.banner h3{
+	font-size:30px;
+	color: #fff;
+	margin-bottom: 0.5em
+}
+.banner p{
+	font-size:17px;
+	margin-bottom: 0.5em
+
+}
+
+
+
+
+a{	text-decoration: none;
+	color: black;
+	
+}
+
+
+h2{ 
+	text-align: center;
+	text-decoration: underline;
+	color:#fff;
+	background-color:#df946f;
+	line-height:3;
+}	
+
+
+.texto1{
+	font-style: italic;
+	text-align: justify;
+	line-height: 2;
+
+}
+
+.texto{
+	font-style:normal;
+	text-align: justify;
+	line-height: 1.5;
+
+}
+
+/*h3{
+	color:#fff;
+	text-align: center;
+	font-weight: 400;
+	text-decoration: underline;
+	line-height:2;
+	background-color:#df946f;
+}*/
+	
+
+
+.contenedor{
+	width: 100%;
+	max-width: 1080px;
+	
+
+}
+.producto{
+	max-width: 280px;
+	display: inline-block;
+	padding:10px 5px;
+	margin:0px;}
+.producto img{
+	width: 100%
+}
+
+.misPreguntas{
+	display: flex;
+	background-color: pink;
+	flex-direction: row;
+	flex-direction: center;
+	height: 200px;
+}
+
+
+
+
+
+#grilla{
+	display: grid;	
+	grid-template-areas:
+	"header header header"
+	"nav nav box"
+	"choco choco box"
+	"tortas tortas box";
+
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-rows: auto auto auto auto;
+	justify-content: center;
+	align-items:;
+	grid-column-gap:20px; 
+	height: 100vh;
+
+	}
+
+.productos{
+	grid-area: header; 
+	
+	}
+
+.box{
+	grid-area: box;
+}
+
+.facturas{
+grid-area: nav
+}	
+
+.chocolate{
+ grid-area: choco;
+}
+
+.tortas{
+	grid-area: tortas;
+}
+
+

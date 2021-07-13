@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,qFAAI;AAIZ,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,ECNJ,SAAS,EAAE,UAAU;EDO5B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAMlB;;AAXD,AAMI,YANQ,CAMR,EAAE,CAAA;EAAG,UAAU,EAAE,MAAM;CAEtB",
+    "sources": [
+        "aplicandoSass.scss",
+        "_varibles.scss"
+    ],
+    "names": [],
+    "file": "aplicandoSass.css"
+}
